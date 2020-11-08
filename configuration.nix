@@ -196,8 +196,7 @@
     subUidRanges = [{ startUid = 100000; count = 65536; }]; #for podman containers
     subGidRanges = [{ startGid = 100000; count = 65536; }];
     extraGroups = [ "wheel"  "video" "audio" "disk" "networkmanager" "docker" "vboxusers" "libvirtd" ];
-    hashedPassword = "$6$nGeoFUIAVXXGcQ$fF5v5rwq/V0Kw4R.Pw.8849RdX3.7EanNZxZnrUKEkeZ4DDHBOT0gc4BWgGkdnFxy8iCOVw3gsGIGFlaX
-dQhl1";
+    hashedPassword = "hashsum";
     createHome = true;
     home = "/home/finnlap";
     uid = 1000;
